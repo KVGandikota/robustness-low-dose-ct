@@ -18,7 +18,8 @@ these localized attacks can be used to explore the solution space of CT recovery
 
 This repository is forked from [here](https://github.com/oterobaguer/dip-ct-benchmark).
 We use the CT reconstruction networks from the [CT benchmark](https://github.com/oterobaguer/dip-ct-benchmark) for robustness evaluation.
-If you find this work useful for your research please consider citing our work and the original CT bench mark paper
+For localized attacks on CT reconstruction we use an adversarially trained classifier from [here](https://github.com/drgHannah/Explorable_CT_Reconstruction) which uses a robust nodule classifier to explore the solution space of CT reconstruction.
+If you find this work useful for your research please consider citing our work, the CT benchmark paper.  
 
 ````
 @inproceedings{
