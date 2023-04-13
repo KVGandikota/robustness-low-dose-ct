@@ -1,6 +1,35 @@
-# Computed Tomography Reconstruction Using Deep Image Prior and Learned Reconstruction Methods
+# Evaluating Adversarial Robustness of Low dose CT Recovery 
 
-In this paper we describe an investigation into the application of deep learning methods for low-dose and sparse angle computed tomography using small training datasets. To motivate our work we review some of the existing approaches and obtain quantitative results after training them with different amounts of data. We find that the learned primal-dual method has an outstanding performance in terms of reconstruction quality and data efficiency. However, in general, end-to-end learned methods have two deficiencies: (a) a lack of classical guarantees in inverse problems and (b) the lack of generalization after training with insufficient data. To overcome these problems, we introduce the deep image prior approach in combination with classical regularization and an initial reconstruction. The proposed methods achieve the best results in the low-data regime in three challenging scenarios.
+Low dose computer tomography (CT) acquisition using reduced radiation or sparse angle
+measurements is recommended to decrease the harmful effects of X-ray radiation. Recent
+works successfully apply deep networks to the problem of low dose CT recovery on benchmark
+datasets. However, their robustness needs a thorough evaluation before use in clinical
+settings. In this work, we evaluate the robustness of different deep learning approaches
+and classical methods for CT recovery. We show that deep networks, including model
+based networks encouraging data consistency are more susceptible to untargeted attacks.
+Surprisingly, we observe that data consistency is not heavily affected even for these poor
+quality reconstructions, motivating the need for better regularization for the networks.
+We demonstrate the feasibility of universal attacks and study attack transferability across
+different methods. We analyze robustness to attacks causing localized changes in clinically
+relevant regions. Both classical approaches and deep networks are affected by such attacks
+leading to change in visual appearance of localized lesions, for extremely small perturbations.
+As the resulting reconstructions have high data consistency with original measurements,
+these localized attacks can be used to explore the solution space of CT recovery problem.
+
+This repository is forked from [here](https://github.com/oterobaguer/dip-ct-benchmark).
+We use the CT reconstruction networks from the [CT benchmark](https://github.com/oterobaguer/dip-ct-benchmark) for robustness evaluation.
+If you find this work useful for your research please consider citing our work and the original CT bench mark paper
+
+````
+@inproceedings{
+gandikota2023evaluating,
+title={Evaluating Adversarial Robustness of Low dose {CT} Recovery},
+author={Kanchana Vaishnavi Gandikota and Paramanand Chandramouli and Hannah Dr{\"o}ge and Michael Moeller},
+booktitle={Medical Imaging with Deep Learning},
+year={2023},
+url={https://openreview.net/forum?id=L-N1uAxfQk1}
+}
+```
 
 ```
 @article{Baguer_2020,
