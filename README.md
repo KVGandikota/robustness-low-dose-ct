@@ -35,7 +35,7 @@ The pretrained checkpoint for iradonmap is to be placed in dliplib/utils/weights
 
 [Download](https://drive.google.com/drive/folders/1Joyn58WkiX24WVkTOcuycAMTI0qYDsN4?usp=sharing) data samples with nodule positions for localized attacks. 
 
-More datasamples for testing can be generated following data generation in [lodopab ref](https://github.com/jleuschn/lodopab_tech_ref), and obtaining nodule positions using pylidc and dicom reader. Note that this requires downloading the LIDC-IDRI dataset.
+More datasamples for testing can be generated following data generation in [lodopab ref](https://github.com/jleuschn/lodopab_tech_ref), and obtaining nodule positions using pylidc and dicom reader. Note that this requires downloading the LIDC-IDRI dataset.See datagen/ for details.
 
 
 
