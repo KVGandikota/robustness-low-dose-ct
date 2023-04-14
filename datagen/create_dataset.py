@@ -1,4 +1,5 @@
 
+# Code from https://github.com/jleuschn/lodopab_tech_ref
 # -*- coding: utf-8 -*-
 """
 
