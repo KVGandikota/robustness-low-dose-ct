@@ -24,6 +24,7 @@ If you find this work useful for your research please consider citing our work, 
 # Getting started
 Follow the [instructions](https://github.com/oterobaguer/dip-ct-benchmark/blob/master/instructions.txt) in the original repository to install astra toolbox, odl and dival
 
+For localized attacks you need the [checkpoint](https://drive.google.com/drive/folders/1jHIqpt6DdFWdilm6qPs_ukC4QM-O960r?usp=sharing) for robustly trained classifier.
 
 
 ````
