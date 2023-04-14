@@ -20,7 +20,7 @@ these localized attacks can be used to explore the solution space of CT recovery
 
 This repository is a fork of the [CT benchmark](https://github.com/oterobaguer/dip-ct-benchmark) from which we use the CT reconstruction networks for robustness evaluation.
 For localized attacks on CT reconstruction, we use an adversarially trained classifier from [here](https://github.com/drgHannah/Explorable_CT_Reconstruction) which uses a robust nodule classifier to explore the solution space of CT reconstruction.
-If you find this work useful for your research please consider citing our work, the CT benchmark paper.  
+If you find this work useful for your research, please consider citing our work.  
 
 # Getting started
 Follow the [instructions](https://github.com/oterobaguer/dip-ct-benchmark/blob/master/instructions.txt) in the original repository to install astra toolbox, odl and dival
