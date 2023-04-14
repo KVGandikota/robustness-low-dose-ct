@@ -1,5 +1,7 @@
 # Evaluating Adversarial Robustness of Low dose CT Recovery 
 
+**MIDL 2023 [paper](https://openreview.net/forum?id=L-N1uAxfQk1)**
+
 Low dose computer tomography (CT) acquisition using reduced radiation or sparse angle
 measurements is recommended to decrease the harmful effects of X-ray radiation. Recent
 works successfully apply deep networks to the problem of low dose CT recovery on benchmark
