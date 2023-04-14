@@ -158,7 +158,7 @@ def main(args):
 
     '''CREATE DIR'''
     if args.log_dir is None:
-        args.log_dir = f'classifier/{args.dataset}_{args.method}_niter{args.niter}_eps{args.eps}'
+        args.log_dir = f'localized_{args.dataset}_{args.method}_niter{args.niter}_eps{args.eps}'
     experiment_dir = 'log/' + args.log_dir
     if not os.path.isdir(experiment_dir): 
         os.mkdir(experiment_dir)
