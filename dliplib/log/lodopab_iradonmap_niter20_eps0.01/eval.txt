@@ -1,0 +1,7 @@
+2023-01-12 04:35:29,614 - Model - INFO - PARAMETER ...
+2023-01-12 04:35:29,614 - Model - INFO - Namespace(count=100, dataset='lodopab', eps=0.01, log_dir=None, method='iradonmap', niter=20, restarts=1, size_part=1.0)
+2023-01-12 04:35:52,786 - Model - INFO - End of testing... 
+2023-01-12 04:35:52,786 - Model - INFO - clean psnr: 33.945621490478516 
+clean_ssim: 0.809610903263092  
+attack psnr: 17.977937698364258  
+attack_ssim: 0.32605257630348206
