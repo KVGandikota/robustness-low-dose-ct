@@ -2,7 +2,7 @@ import argparse
 import os
 os.environ["CUDA_VISIBLE_DEVICES"]= "0"#,1,2,3"
 import sys
-sys.path.append('/data/vsa_vaishnavi/inverse_prob_adversarial/dip-ct-benchmark/')
+sys.path.append('../')
 import torch
 from dival import DataPairs
 from dliplib.reconstructors import get_reconstructor
