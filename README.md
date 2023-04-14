@@ -28,6 +28,7 @@ Additionally [download](https://drive.google.com/drive/folders/1jHIqpt6DdFWdilm6
 For localized attacks you need the checkpoint for robustly trained classifier. Place it in dliplib/
 
 Experiments with iradonmap need precomputed coord_mat matrix. Placed it in dliplib/reconstructors/
+
 The pretrained checkpoint for iradonmap is to be placed in dliplib/utils/weights/ 
 
 
