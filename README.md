@@ -21,6 +21,11 @@ We use the CT reconstruction networks from the [CT benchmark](https://github.com
 For localized attacks on CT reconstruction we use an adversarially trained classifier from [here](https://github.com/drgHannah/Explorable_CT_Reconstruction) which uses a robust nodule classifier to explore the solution space of CT reconstruction.
 If you find this work useful for your research please consider citing our work, the CT benchmark paper.  
 
+# Getting started
+Follow the [instructions](https://github.com/oterobaguer/dip-ct-benchmark/blob/master/instructions.txt) in the original repository to install astra toolbox, odl and dival
+
+
+
 ````
 @inproceedings{
 gandikota2023evaluating,
