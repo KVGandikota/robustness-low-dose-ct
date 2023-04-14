@@ -16,15 +16,14 @@ leading to change in visual appearance of localized lesions, for extremely small
 As the resulting reconstructions have high data consistency with original measurements,
 these localized attacks can be used to explore the solution space of CT recovery problem.
 
-This repository is forked from [here](https://github.com/oterobaguer/dip-ct-benchmark).
-We use the CT reconstruction networks from the [CT benchmark](https://github.com/oterobaguer/dip-ct-benchmark) for robustness evaluation.
-For localized attacks on CT reconstruction we use an adversarially trained classifier from [here](https://github.com/drgHannah/Explorable_CT_Reconstruction) which uses a robust nodule classifier to explore the solution space of CT reconstruction.
+This repository is a forked of the [CT benchmark](https://github.com/oterobaguer/dip-ct-benchmark) from which we use the CT reconstruction networks for robustness evaluation.
+For localized attacks on CT reconstruction, we use an adversarially trained classifier from [here](https://github.com/drgHannah/Explorable_CT_Reconstruction) which uses a robust nodule classifier to explore the solution space of CT reconstruction.
 If you find this work useful for your research please consider citing our work, the CT benchmark paper.  
 
 # Getting started
 Follow the [instructions](https://github.com/oterobaguer/dip-ct-benchmark/blob/master/instructions.txt) in the original repository to install astra toolbox, odl and dival
 
-Additionally [download](https://drive.google.com/drive/folders/1jHIqpt6DdFWdilm6qPs_ukC4QM-O960r?usp=sharing) check points and matrices needed 
+Additionally [download](https://drive.google.com/drive/folders/1jHIqpt6DdFWdilm6qPs_ukC4QM-O960r?usp=sharing) for check points, matrices and data needed.
 
 For localized attacks you need the checkpoint for robustly trained classifier. Place it in dliplib/
 
