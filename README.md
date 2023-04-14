@@ -23,13 +23,19 @@ If you find this work useful for your research please consider citing our work, 
 # Getting started
 Follow the [instructions](https://github.com/oterobaguer/dip-ct-benchmark/blob/master/instructions.txt) in the original repository to install astra toolbox, odl and dival
 
-Additionally [download](https://drive.google.com/drive/folders/1jHIqpt6DdFWdilm6qPs_ukC4QM-O960r?usp=sharing) for check points, matrices and data needed.
+Additionally [download](https://drive.google.com/drive/folders/1jHIqpt6DdFWdilm6qPs_ukC4QM-O960r?usp=sharing) for check points, matrices.
 
 For localized attacks you need the checkpoint for robustly trained classifier. Place it in dliplib/
 
 Experiments with iradonmap need precomputed coord_mat matrix. Placed it in dliplib/reconstructors/
 
 The pretrained checkpoint for iradonmap is to be placed in dliplib/utils/weights/ 
+
+[Download]() data samples with nodule positions for localized attacks. 
+
+More datasamples for testing can be generated following data generation in [lodopab ref](https://github.com/jleuschn/lodopab_tech_ref), and obtaining nodule positions using pylidc and dicom reader. Note that this requires downloading the LIDC-IDRI dataset.
+
+
 
 
 
