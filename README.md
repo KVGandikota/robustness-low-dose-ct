@@ -1,4 +1,4 @@
-# Official Github Repository for Evaluating Adversarial Robustness of Low dose CT Recovery 
+# Official Github Repository for the paper "Evaluating Adversarial Robustness of Low dose CT Recovery"
 
 **MIDL 2023 [paper](https://openreview.net/forum?id=L-N1uAxfQk1)**
 
